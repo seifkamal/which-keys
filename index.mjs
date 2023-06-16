@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
     throw new Error("could not find output element");
   }
 
-  /** @type {{ [key: string]: HTMLElement }} */
+  /** @type {{ [code: string]: HTMLElement }} */
   let keys = {};
   const reset = () => {
     keys = {};
